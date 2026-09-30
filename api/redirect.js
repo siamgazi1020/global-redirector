@@ -6,21 +6,21 @@ export const config = {
 
 export default async function handler(req) {
   const links = [
-    "https://vip.mixclips.top/mix44vip/?utm_source=Saim&utm_medium=SIAM1",
-    "https://vip.mixclips.top/mix44vip/?utm_source=Saim&utm_medium=SIAM2",
-    "https://vip.mixclips.top/mix44vip/?utm_source=Saim&utm_medium=SIAM3",
-    "https://vip.mixclips.top/mix44vip/?utm_source=Saim&utm_medium=SIAM4",
-    "https://vip.mixclips.top/mix44vip/?utm_source=Saim&utm_medium=SIAM5",
-    "https://vip.mixclips.top/mix44vip/?utm_source=Saim&utm_medium=SIAM6",
-    "https://vip.mixclips.top/mix44vip/?utm_source=Saim&utm_medium=SIAM7",
-    "https://vip.mixclips.top/mix44vip/?utm_source=Saim&utm_medium=SIAM8",
-    "https://vip.mixclips.top/mix44vip/?utm_source=Saim&utm_medium=SIAM9",
-    "https://vip.mixclips.top/mix44vip/?utm_source=Saim&utm_medium=SIAM10",
-    "https://vip.mixclips.top/mix44vip/?utm_source=Saim&utm_medium=SIAM11",
-    "https://vip.mixclips.top/mix44vip/?utm_source=Saim&utm_medium=SIAM12",
-    "https://vip.mixclips.top/mix44vip/?utm_source=Saim&utm_medium=SIAM13",
-    "https://vip.mixclips.top/mix44vip/?utm_source=Saim&utm_medium=SIAM14",
-    "https://vip.mixclips.top/mix44vip/?utm_source=Saim&utm_medium=SIAM15"
+    "https://blogverse.flazora.com/blog/how-to-improve-your-business-credit-score-and-qualify-for-better-financing",
+    "https://blogverse.flazora.com/blog/small-business-insurance-in-2026-types-of-coverage-costs-and-how-to-choose",
+    "https://blogverse.flazora.com/blog/how-to-get-a-business-loan-in-2026-requirements-rates-and-application-process",
+    "https://blogverse.flazora.com/blog/business-credit-cards-in-2026-how-to-compare-rewards-fees-and-apr",
+    "https://blogverse.flazora.com/blog/best-business-bank-accounts-for-small-businesses-in-2026-fees-features-and-what-to-consider-a-topic-dea-akta-website-post-photo-banai-deo",
+    "https://blogverse.flazora.com/blog/how-to-improve-your-business-credit-score-and-qualify-for-better-financing",
+    "https://blogverse.flazora.com/blog/small-business-insurance-in-2026-types-of-coverage-costs-and-how-to-choose",
+    "https://blogverse.flazora.com/blog/how-to-get-a-business-loan-in-2026-requirements-rates-and-application-process",
+    "https://blogverse.flazora.com/blog/business-credit-cards-in-2026-how-to-compare-rewards-fees-and-apr",
+    "https://blogverse.flazora.com/blog/best-business-bank-accounts-for-small-businesses-in-2026-fees-features-and-what-to-consider-a-topic-dea-akta-website-post-photo-banai-deo",
+    "https://blogverse.flazora.com/blog/how-to-improve-your-business-credit-score-and-qualify-for-better-financing",
+    "https://blogverse.flazora.com/blog/small-business-insurance-in-2026-types-of-coverage-costs-and-how-to-choose",
+    "https://blogverse.flazora.com/blog/how-to-get-a-business-loan-in-2026-requirements-rates-and-application-process",
+    "https://blogverse.flazora.com/blog/business-credit-cards-in-2026-how-to-compare-rewards-fees-and-apr",
+    "https://blogverse.flazora.com/blog/best-business-bank-accounts-for-small-businesses-in-2026-fees-features-and-what-to-consider-a-topic-dea-akta-website-post-photo-banai-deo"
   ];
 
   try {
