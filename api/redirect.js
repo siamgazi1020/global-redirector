@@ -23,6 +23,18 @@ export default async function handler(req) {
     "https://blogverse.flazora.com/blog/best-business-bank-accounts-for-small-businesses-in-2026-fees-features-and-what-to-consider-a-topic-dea-akta-website-post-photo-banai-deo"
   ];
 
+  // ১. ভিজিটরের User-Agent ক্যাপচার
+  const userAgent = (req.headers.get('user-agent') || '').toLowerCase();
+
+  // ২. পরিচিত সব ধরনের Bot / Crawler / Spider শনাক্ত করার ফিল্টার
+  const isBot = /(bot|crawler|spider|facebookexternalhit|facebot|meta|googlebot|bingbot|yahoo|duckduckbot|baiduspider|yandex|python|curl|wget|httpclient|headless|phpx|telegrambot|twitterbot|whatsapp|discordbot|lighthouse)/i.test(userAgent);
+
+  // ৩. যদি বট হয় বা কোনো User-Agent না থাকে, তবে Google-এ পাঠাবে (কাউন্টার বাড়বে না)
+  if (!userAgent || isBot) {
+    return Response.redirect('https://google.com', 302);
+  }
+
+  // ৪. কেবল আসল মানুষ (Real Human) ঢুকলেই কাউন্টার বাড়বে ও রিডাইরেক্ট হবে
   try {
     const nextIndex = await kv.incr('redirect_index');
     const selectedIndex = (nextIndex - 1) % links.length;
